@@ -6,7 +6,7 @@ export const LogIn = () => {
 
   const onFinish = (values) => {
     console.log('Received values of form: ', values);
-    message.warning('Usuario no registrdo', 3);
+    message.warning('Usuario no registrado', 3);
   };
 
 

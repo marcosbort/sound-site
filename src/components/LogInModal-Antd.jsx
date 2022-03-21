@@ -30,7 +30,7 @@ export const LoginForm = () => {
           Login
         </Button>
         <Modal 
-          title="Mastering"
+          title="Login - Mastering"
           visible={isModalVisible}
           onCancel={handleCancel}
           // closeIcon
