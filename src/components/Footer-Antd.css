@@ -1,0 +1,76 @@
+/*-----------------------------------------\
+	Footer
+\-----------------------------------------*/
+.ant-layout-footer {
+  background: #111 !important;
+  padding: 50px 0 50px 0 !important;
+  background: url('../images/bg-sound-7.jpg') no-repeat !important;
+  background-position: 50% 25% !important;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+.footer {
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: rgb(124, 124, 124); */
+}
+
+/*-----------------------------------------\
+	Logo Sound
+\-----------------------------------------*/
+.footer .logo-sound {
+  width: 225px;
+  margin: 2px 0 4px 0;
+}
+
+
+/*-----------------------------------------\
+	Contact
+\-----------------------------------------*/
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  width: 300px;
+  font-size: 16px;
+}
+
+.footer-contact .by {
+  margin: 0 8px 0 6px;
+  color: rgb(160, 160, 160);
+}
+
+.footer-contact .contact {
+  margin: 0 16px 0 0;
+}
+
+.footer-contact .copy {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-contact a {
+  margin: 0 5px;
+  font-size: 23px;
+}
+
+
+/*-----------------------------------------\
+	Go Top!
+\-----------------------------------------*/
+.footer .fas {
+  color: var(--color-01);
+  font-size: 28px;
+  margin: 0 5px 0 0;
+}
+
+.footer .goTop:hover {
+  opacity: 0.7;
+}
+

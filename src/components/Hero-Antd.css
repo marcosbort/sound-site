@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display&family=Roboto:wght@100;300;400;500;700;900&family=Satisfy&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+*/
+/*-----------------------------------------\
+	Hero
+\-----------------------------------------*/
+.heroBlock {
+  position: relative;
+  height: 100vh;
+  background-position: 50% 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.fusion-layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(141, 78, 157, 0.9) 0%, rgba(86, 163, 122, 0.9) 120%);
+  opacity: 0.0;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+
+.heroBlock .block-1,
+.heroBlock .block-2,
+.heroBlock .block-3,
+.heroBlock .block-4,
+.heroBlock .block-5,
+.heroBlock .block-6 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100% !important;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBlock .block-1 {
+  background: url('../images/bg-sound-2.jpg') no-repeat;
+}
+
+.heroBlock .block-2 {
+  background: url('../images/bg-sound-12.jpg') no-repeat;
+}
+
+.heroBlock .block-3 {
+  background: url('../images/bg-sound-11.jpg') no-repeat;
+}
+
+.heroBlock .block-4 {
+  background: url('../images/bg-sound-7a.jpg') no-repeat;
+}
+
+.heroBlock .block-5 {
+  background: url('../images/bg-sound-14.jpg') no-repeat;
+}
+
+.heroBlock .block-6 {
+  background: url('../images/bg-sound-22.jpg') no-repeat;
+}
+
+.heroBlock .container-fluid {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.heroBlock .ant-carousel,
+.heroBlock .ant-carousel div {
+  height: 100%;
+}
+
+.heroBlock .slick-dots li button {
+  background: #000 !important;
+}
+
+.heroBlock .slick-dots li.slick-active button {
+  background: var(--color-01) !important;
+}
+
+.heroBlock .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 20px;
+  text-align: center;
+}
+
+.heroBlock .content h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 200px;
+  font-size: 150px;
+  line-height: 1;
+  font-weight: 800;
+  margin: 20px 0 4px;
+  color: white;
+  letter-spacing: 0px;
+}
+
+.heroBlock .content p {
+  margin: 0 0 10px;
+  color: white;
+}
+
+.heroBlock .content img {
+  width: 200px ;
+  margin: 0 0 -70px 0;
+  /* filter: brightness(0); */
+}
+
+.stars-icon {
+  color: rgb(218, 218, 80) !important;
+  margin: 0 0 20px!important;
+}
+
+.heroBlock .btnHolder {
+  height: auto !important;
+}
+
+.heroBlock .btnHolder button {
+  margin: 0 5px 0;
+}
+
+.heroBlock .btnHolder .fas {
+  margin: 0 10px 0 0;
+}
+
+.heroBlock .ant-carousel .slick-dots li button {
+  height: 5px;
+}
+
+
+/* Btn CTA (Leer más) */
+.heroBlock .ant-anchor-link {
+  width: 100px;
+  padding: 8px 5px;
+  border-radius: 20px;
+  line-height: 1.143;
+  background-color: #1890ff;
+}
+
+.heroBlock .ant-anchor-link:hover {
+  background-color: #43a4ff;
+}
+
+/* Btn Leer más */
+.heroBlock .ant-anchor-link-title {
+  color: white;
+  padding: 4px 10px;
+  display: block;
+  font-size: 16 !important;
+  
+}
+
+.heroBlock .ant-anchor-ink::before {
+  display: none;
+}
+
+.heroBlock .ant-anchor-ink::after {
+  display: none;
+}
+
+.heroBlock .ant-anchor-wrapper {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+
+/*-----------------------------------------\
+	Responsive
+\-----------------------------------------*/
+
+@media (max-width: 760px) {
+  .heroBlock .content h3 {
+    font-size: 120px;
+
+  }
+}
+
+@media (max-width: 660px) {
+  .heroBlock .content h3 {
+    font-size: 100px;
+
+  }
+}
+
+@media (max-width: 560px) {
+  .heroBlock .content h3 {
+    font-size: 100px;
+
+  }
+}
+
+@media (max-width: 560px) {
+  .heroBlock .content h3 {
+    font-size: 120px;
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 350px) {
+  .heroBlock .content h3 {
+    font-size: 100px;
+
+  }
+}
+
+@media (max-width: 280px) {
+  .heroBlock .content h3 {
+    font-size: 80px;
+
+  }
+}

@@ -1,0 +1,12 @@
+/*-----------------------------------------\
+	Contact
+\-----------------------------------------*/
+.contactBlock .ant-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contactBlock .ant-form textarea {
+  min-height: 120px;
+  height: 120px;
+}

@@ -1,0 +1,76 @@
+/*-----------------------------------------\
+	Modal
+\-----------------------------------------*/
+.modalBlock {
+  background: url('../images/bg-sound-12.jpg') no-repeat;
+  background: url('../images/bg-sound-3.jpg') no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative;
+  height: 380px;
+}
+
+.modalBlock:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modalBlock h2 {
+  color: #fff;
+}
+
+.modalBlock .contentHolder {
+  text-align: center;
+  
+}
+
+.modalBlock .contentHolder  i {
+  margin: 0 0 0 9px;
+}
+
+.modalBlock .contentHolder button {
+  font-size: 40px;
+  line-height: 1;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+/*-----------------------------------------\
+	Responsive
+\-----------------------------------------*/
+@media (max-width: 530px) {
+  .modalBlock {
+    height: 380px;
+  }
+}
+
+@media (max-width: 526px) {
+  .modalBlock {
+    height: 408px;
+  }
+}
+
+@media (max-width: 334px) {
+  .modalBlock {
+    height: 438px;
+  }
+}
+
+@media (max-width: 284px) {
+  .modalBlock {
+    height: 476px;
+  }
+}

@@ -1,0 +1,232 @@
+/*-----------------------------------------\
+	Header
+\-----------------------------------------*/
+.ant-layout-header {
+  background: #f8f8f8;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+
+  /* Glassmorphism (Disable) */
+  /* background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(80, 80, 80, 0.3); */
+}
+
+.ant-layout-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0 16px 0;
+}
+
+
+/*-----------------------------------------\
+	Logo Sound
+\-----------------------------------------*/
+.header-logo {
+  /* position: relative; */
+  width: 200px;
+  /* background-color: rgb(176, 231, 231); */
+  display: flex;
+}
+
+.logo-sound {
+  /* position: absolute; */
+  width: 120px;
+}
+
+/* .header-logo a {
+  font-size: 18px;
+  margin: 0 0 0 49px !important;
+  color: var(--color-01) !important;
+  font-family: 'Red Hat Display', sans-serif !important;
+} */
+
+
+/*-----------------------------------------\
+	Login
+\-----------------------------------------*/
+
+.mobileHidden {
+  display: flex;
+  flex-direction: row;
+  /* background-color: aquamarine; */
+  align-items: center;
+}
+
+
+
+
+
+/*----------------------------------------*/
+
+.header .ant-anchor-wrapper {
+  background: none;
+}
+
+.header .ant-anchor {
+  display: flex;
+}
+
+.header .ant-anchor-ink {
+  display: none;
+}
+
+
+/*-----------------------------------------\
+	Custom Navbar
+\-----------------------------------------*/
+.mobileHidden .ant-anchor-link {
+  padding: 0 20px;
+  line-height: 1.4;
+  position: relative;
+  font-size: 14px;
+}
+
+.mobileVisible .ant-anchor-link {
+  padding: 0 20px;
+  line-height: 1.4;
+  position: relative;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mobileVisible .ant-btn-primary {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: none;
+}
+
+.header .ant-anchor-link:before,
+.header .ant-anchor-link:after {
+  content: '';
+  /* background: #1890ff; */
+  background: var(--color-01);
+  width: 1px;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 30%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.header .ant-anchor-link:after {
+  left: auto;
+  right: 30%;
+}
+
+.header .ant-anchor-link.ant-anchor-link-active:before,
+.header .ant-anchor-link:hover:before {
+  left: 5%;
+  opacity: 1;
+}
+
+.header .ant-anchor-link.ant-anchor-link-active:after,
+.header .ant-anchor-link:hover:after {
+  right: 5%;
+  opacity: 1;
+}
+
+.ant-anchor-link-active > .ant-anchor-link-title {
+  color: var(--color-01);
+}
+
+
+/*-----------------------------------------\
+	Ant Menu
+\-----------------------------------------*/
+.header .ant-menu {
+  border: 0;
+  background: none !important;
+}
+
+.header .ant-menu li.ant-menu-item {
+  position: relative;
+  color: #333;
+}
+
+.header .ant-menu li.ant-menu-item:before,
+.header .ant-menu li.ant-menu-item:after {
+  content: '';
+  /* background: #1890ff; */
+  background: var(--color-01);
+  width: 1px;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 30%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.header .ant-menu li.ant-menu-item:after {
+  left: auto;
+  right: 30%;
+}
+
+.header .ant-menu li.ant-menu-item,
+.header .ant-menu li.ant-menu-item-selected {
+  border: 0 !important;
+}
+
+.header .ant-menu li.ant-menu-item-selected,
+.header .ant-menu li.ant-menu-item:hover {
+  /* color: #1890ff; */
+  color: var(--color-01);
+  background: none;
+}
+
+.header .ant-menu li.ant-menu-item-selected:before,
+.header .ant-menu li.ant-menu-item:hover:before {
+  left: 5%;
+  opacity: 1;
+}
+
+.header .ant-menu li.ant-menu-item-selected:after,
+.header .ant-menu li.ant-menu-item:hover:after {
+  right: 5%;
+  opacity: 1;
+}
+
+
+/*-----------------------------------------\
+	Drawer (Menu Desplegable) Mobile
+\-----------------------------------------*/
+.ant-drawer-body {
+  flex-grow: 1;
+  padding: 30px 0 0 40px !important;
+  overflow: auto;
+  line-height: 1.5715;
+  word-wrap: break-word;
+}
+
+.ant-drawer-content-wrapper {
+  width: 42% !important;
+}
+
+.ant-drawer-content-wrapper .ant-anchor-link {
+  padding: 12px 0 12px 20px !important;
+  color: white !important;
+  font-size: 16px; 
+}
+
+.header .login-mobile {
+  margin: 50px 0 0 0 !important;
+}
+
+.ant-drawer-content {
+  /* Glassmorphism */
+  /* backdrop-filter: blur(16px) !important; */
+  /* background-color: rgba(199, 196, 196, 0.603) !important; */
+  /* border-left: 1px solid rgba(0, 0, 0, 0.2) !important; */
+}
+
+

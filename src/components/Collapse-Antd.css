@@ -1,0 +1,26 @@
+/*-----------------------------------------\
+	Block
+\-----------------------------------------*/
+
+.collapseBlock {
+  background-color: rgb(82, 165, 137) !important;
+}
+
+.collapseBlock .ant-collapse {
+  margin: 0 0 40px;
+}
+
+.collapseBlock .quickSupport {
+  text-align: center;
+  max-width: 740px;
+  margin: auto;
+}
+
+.collapseBlock .fas {
+  margin: 0 10px 0 0;
+}
+
+.collapseBlock .collapse-box {
+  border: 1px solid rgb(0, 0, 0) !important;
+  color: white;
+}
