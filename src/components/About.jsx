@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "antd/dist/antd.css";
 import "./About.css";
 import { Row, Col } from 'antd';
@@ -10,7 +10,7 @@ import image5 from "../images/circle-05.png";
 export const About = () => {
   
   return (
-    <div id="about" className='block about-block'>
+    <div id="about" className="block about-block">
       <div className="container-fluid">
 
         <div className="title-holder">

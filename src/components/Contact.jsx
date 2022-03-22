@@ -1,7 +1,7 @@
-import React from 'react';
-import './Contact.css';
-import { Form, Input, Button, Checkbox } from 'antd';
-import { TermsAndConditions } from './TermsAndConditions';
+import React from "react";
+import "./Contact.css";
+import { Form, Input, Button, Checkbox } from "antd";
+import { TermsAndConditions } from "./TermsAndConditions";
 
 const { TextArea } = Input;
 const { Item } = Form;
