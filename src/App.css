@@ -48,7 +48,7 @@ p {
   line-height: 1.6;
 }
 
-.bgGray {
+.bg-gray {
   background: #fafafa;
 }
 
@@ -56,23 +56,14 @@ p {
 /*-----------------------------------------\
 	Title Holder
 \-----------------------------------------*/
-.titleHolder {
+.title-holder {
   text-align: center;
   position: relative;
   padding: 0 0 20px;
   margin: 0 0 40px;
 }
 
-/*
-font-family: 'Bebas Neue', cursive;
-font-family: 'Raleway', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Red Hat Display', sans-serif;
-font-family: 'Satisfy', cursive;
-*/
-
-.titleHolder:after {
+.title-holder:after {
   transform: translateX(-50%);
   content: '';
   background: var(--color-01);
@@ -83,7 +74,7 @@ font-family: 'Satisfy', cursive;
   width: 50px;
 }
 
-.titleHolder h2 {
+.title-holder h2 {
   font-size: 30px;
   margin: 0;
 }
@@ -93,11 +84,11 @@ font-family: 'Satisfy', cursive;
   border-bottom: 1px solid #d9d9d9;
 }
 
-.mobileVisible {
+.mobile-visible {
   display: none;
 }
 
-.mobileHidden {
+.mobile-hidden {
   display: block;
 }
 
@@ -110,6 +101,13 @@ footer {
   margin-top: -30px;
   height: 200px;
 }
+
+
+/*-----------------------------------------\
+	BTN Modal Card
+\-----------------------------------------*/
+
+
 
 /*-----------------------------------------\
 	Media Queries
@@ -128,11 +126,11 @@ footer {
 
 @media only screen and (max-width: 770px) {
   
-  .mobileVisible {
+  .mobile-visible {
     display: block;
   }
   
-  .mobileHidden {
+  .mobile-hidden {
     display: none !important;
   }
 

@@ -1,33 +1,32 @@
-import React, { useState } from 'react';
-import "./VideoModalParallax-Antd.css"
+import React, { useCallback, useState } from 'react';
+import "./Video.css";
 import { Modal, Button } from 'antd';
 
-export const AppModal = () => {
+export const Video = () => {
 
   const [isModalVisible, setIsModalVisible] = useState(false);
 
-  const showModal = () => {
+  const handleShowModal = useCallback(() => {
     setIsModalVisible(true);
-  };
+  }, []);
 
-  const handleCancel = () => {
+  const handleCancel = useCallback(() => {
     setIsModalVisible(false);
-  };
+  }, []);
 
   return (
-    <div id='modal' className='block modalBlock'>
+    <div id='modal' className='block modal-block'>
       <div className="container-fluid">
-        <div className="titleHolder">
+        <div className="title-holder">
           <h2>Llevá tu música al siguiente nivel</h2>
           <p>Te brindamos los equipos Hi-Res tope de gama de las primeras marcas</p>
         </div>
-        <div className="contentHolder">
-          <Button ghost onClick={showModal}>
+        <div className="content-holder">
+          <Button ghost onClick={handleShowModal}>
             <i className="fas fa-play"></i>
           </Button>
           <Modal
             width={"80%"}
-            // title="Soy un modal"
             centered={true}
             footer={null}
             visible={isModalVisible}

@@ -1,15 +1,14 @@
-import React from 'react'
-import "./Hero-Antd.css"
-import { Carousel, Button, Anchor } from 'antd';
+import React from 'react';
+import "./Hero.css";
+import { Carousel, Anchor } from 'antd';
 import { StarFilled } from '@ant-design/icons';
+import logoSound from "../images/logo-sound.png";
 
-import logoSound from "../images/logo-sound.png"
-// import logoSound from "../images/logo-sound-white.png"
 
-export const AppHero = () => {
+export const Hero = () => {
   
   return (
-    <div id='home' className='heroBlock'>
+    <div id='home' className='hero-block'>
       <Carousel autoplay>
         <div className="block-1"/>
         <div className="block-2"/>

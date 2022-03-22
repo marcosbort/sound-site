@@ -1,27 +1,27 @@
 import './App.css';
 import "antd/dist/antd.css"
-import { AppHeader } from './components/Header-Antd';
-import { AppHero } from './components/Hero-Antd';
-import { AppAbout } from './components/About-Antd';
-import { AppCards } from './components/Cards-Antd';
-import { AppModal } from './components/VideoModalParallax-Antd';
-import { AppPrices } from './components/Prices-Antd';
-import { AppContact } from './components/Contact-Antd';
-import { AppFooter } from './components/Footer-Antd';
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
+import { Equipment } from './components/Equipment';
+import { Video } from './components/Video';
+import { Prices } from './components/Prices';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer'
 
 
 function App() {
 
   return (
     <div className="App">
-      <AppHeader />
-      <AppHero />
-      <AppAbout />
-      <AppCards />
-      <AppModal />
-      <AppPrices />
-      <AppContact />
-      <AppFooter />
+      <Navbar />
+      <Hero />
+      <About />
+      <Equipment />
+      <Video />
+      <Prices />
+      <Contact />
+      <Footer />
 
     </div>
   );

@@ -1,21 +1,17 @@
 import React from 'react';
-import "./Footer-Antd.css"
-import logoSound from "../images/logo-sound-02.png"
-
-// import logoSound from "../images/logo-sound-white.png"
+import "./Footer.css";
+import logoSound from "../images/logo-sound-02.png";
 import { BackTop, Layout } from 'antd';
 import { GithubFilled, LinkedinFilled } from '@ant-design/icons';
 
-export const AppFooter = () => {
-  const { Footer } = Layout
+
+export const Footer = () => {
 
   return (
-    <Footer>
+    <Layout.Footer>
       <div className="container-fluid">
         <div className="footer-container">
           <div className="footer">
-            {/* <div className="footer-logo">
-            </div> */}
             <img className='logo-sound' src={logoSound} alt="logo-sound" />
             
             <div className="footer-contact">
@@ -30,6 +26,6 @@ export const AppFooter = () => {
           </div>
         </div>
       </div>
-    </Footer>
+    </Layout.Footer>
   );
 }

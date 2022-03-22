@@ -2,26 +2,26 @@
 	Prices
 \-----------------------------------------*/
 
-.pricesBlock .titleHolder {
+.prices-block .title-holder {
   margin: 0px 0 56px 0 !important;
 }
 
-.pricesBlock .ant-list {
+.prices-block .ant-list {
   text-align: center;
 }
 
-.pricesBlock .ant-row > div:nth-child(2) .ant-list-item {
+.prices-block .ant-row > div:nth-child(2) .ant-list-item {
   box-shadow: 0 0 12px 2px #f3f3f3 ;
   transform: scale(1.1);
   position: relative;
   z-index: 1;
 }
 
-.pricesBlock .ant-row {
+.prices-block .ant-row {
   width: 100% !important;
 }
 
-.pricesBlock .ant-card-head-title {
+.prices-block .ant-card-head-title {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 400;
@@ -30,59 +30,50 @@
   height: 55px;
 }
 
-/*
-font-family: 'Satisfy', cursive;
-font-family: 'Red Hat Display', sans-serif;
-font-family: 'Bebas Neue', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
-
-.pricesBlock .price {
+.prices-block .price {
   font-size: 38px;
   margin-top: -5px;
   letter-spacing: -1px;
 }
 
-.pricesBlock p {
+.prices-block p {
   margin: 0 0 7px 0;
 }
 
-.pricesBlock .coin {
+.prices-block .coin {
   font-size: 12px;
 }
 
-.pricesBlock .large {
+.prices-block .large {
   font-size: 38px;
   line-height: 1;
   margin: 0 0 20px;
 }
 
-.pricesBlock .fab {
+.prices-block .fab {
   margin: 0 10px 0 0;
 }
 
-.pricesBlock .large {
+.prices-block .large {
   margin: 0 0 16px 0;
 }
 
-.pricesBlock .contentHolder {
+.prices-block .content-holder {
   color: yellowgreen;
 }
+
 
 /*-----------------------------------------\
 	Responsive
 \-----------------------------------------*/
-
-
 @media only screen and (max-width: 991px) {
-  .pricesBlock .ant-row > div:nth-child(2) .ant-list-item {
+  .prices-block .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1.14);
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .pricesBlock .ant-row > div:nth-child(2) .ant-list-item {
+  .prices-block .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1);
   }
 }

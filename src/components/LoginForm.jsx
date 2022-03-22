@@ -1,13 +1,14 @@
 import { Form, Input, Button, Checkbox, message } from 'antd';
-import { UserOutlined, LockOutlined, WhatsAppOutlined } from '@ant-design/icons';
+import { UserOutlined, LockOutlined } from '@ant-design/icons';
+import { useCallback } from 'react';
 
 
-export const LogIn = () => {
+export const LoginForm = () => {
 
-  const onFinish = (values) => {
+  const onFinish = useCallback((values) => {
     console.log('Received values of form: ', values);
     message.warning('Usuario no registrado', 3);
-  };
+  }, []);
 
 
   return (

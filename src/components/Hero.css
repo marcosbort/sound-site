@@ -10,7 +10,7 @@ font-family: 'Satisfy', cursive;
 /*-----------------------------------------\
 	Hero
 \-----------------------------------------*/
-.heroBlock {
+.hero-block {
   position: relative;
   height: 100vh;
   background-position: 50% 100%;
@@ -30,12 +30,12 @@ font-family: 'Satisfy', cursive;
   z-index: 1;
 }
 
-.heroBlock .block-1,
-.heroBlock .block-2,
-.heroBlock .block-3,
-.heroBlock .block-4,
-.heroBlock .block-5,
-.heroBlock .block-6 {
+.hero-block .block-1,
+.hero-block .block-2,
+.hero-block .block-3,
+.hero-block .block-4,
+.hero-block .block-5,
+.hero-block .block-6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100% !important;
@@ -44,31 +44,31 @@ font-family: 'Satisfy', cursive;
   overflow: hidden;
 }
 
-.heroBlock .block-1 {
+.hero-block .block-1 {
   background: url('../images/bg-sound-2.jpg') no-repeat;
 }
 
-.heroBlock .block-2 {
+.hero-block .block-2 {
   background: url('../images/bg-sound-12.jpg') no-repeat;
 }
 
-.heroBlock .block-3 {
+.hero-block .block-3 {
   background: url('../images/bg-sound-11.jpg') no-repeat;
 }
 
-.heroBlock .block-4 {
+.hero-block .block-4 {
   background: url('../images/bg-sound-7a.jpg') no-repeat;
 }
 
-.heroBlock .block-5 {
+.hero-block .block-5 {
   background: url('../images/bg-sound-14.jpg') no-repeat;
 }
 
-.heroBlock .block-6 {
+.hero-block .block-6 {
   background: url('../images/bg-sound-22.jpg') no-repeat;
 }
 
-.heroBlock .container-fluid {
+.hero-block .container-fluid {
   position: absolute;
   width: 90%;
   top: 50%;
@@ -76,20 +76,20 @@ font-family: 'Satisfy', cursive;
   transform: translate(-50%,-50%);
 }
 
-.heroBlock .ant-carousel,
-.heroBlock .ant-carousel div {
+.hero-block .ant-carousel,
+.hero-block .ant-carousel div {
   height: 100%;
 }
 
-.heroBlock .slick-dots li button {
+.hero-block .slick-dots li button {
   background: #000 !important;
 }
 
-.heroBlock .slick-dots li.slick-active button {
+.hero-block .slick-dots li.slick-active button {
   background: var(--color-01) !important;
 }
 
-.heroBlock .content {
+.hero-block .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +98,7 @@ font-family: 'Satisfy', cursive;
   text-align: center;
 }
 
-.heroBlock .content h3 {
+.hero-block .content h3 {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 200px;
   font-size: 150px;
@@ -109,12 +109,12 @@ font-family: 'Satisfy', cursive;
   letter-spacing: 0px;
 }
 
-.heroBlock .content p {
+.hero-block .content p {
   margin: 0 0 10px;
   color: white;
 }
 
-.heroBlock .content img {
+.hero-block .content img {
   width: 200px ;
   margin: 0 0 -70px 0;
   /* filter: brightness(0); */
@@ -125,25 +125,25 @@ font-family: 'Satisfy', cursive;
   margin: 0 0 20px!important;
 }
 
-.heroBlock .btnHolder {
+.hero-block .btnHolder {
   height: auto !important;
 }
 
-.heroBlock .btnHolder button {
+.hero-block .btnHolder button {
   margin: 0 5px 0;
 }
 
-.heroBlock .btnHolder .fas {
+.hero-block .btnHolder .fas {
   margin: 0 10px 0 0;
 }
 
-.heroBlock .ant-carousel .slick-dots li button {
+.hero-block .ant-carousel .slick-dots li button {
   height: 5px;
 }
 
 
 /* Btn CTA (Leer más) */
-.heroBlock .ant-anchor-link {
+.hero-block .ant-anchor-link {
   width: 100px;
   padding: 8px 5px;
   border-radius: 20px;
@@ -151,12 +151,12 @@ font-family: 'Satisfy', cursive;
   background-color: #1890ff;
 }
 
-.heroBlock .ant-anchor-link:hover {
+.hero-block .ant-anchor-link:hover {
   background-color: #43a4ff;
 }
 
 /* Btn Leer más */
-.heroBlock .ant-anchor-link-title {
+.hero-block .ant-anchor-link-title {
   color: white;
   padding: 4px 10px;
   display: block;
@@ -164,15 +164,15 @@ font-family: 'Satisfy', cursive;
   
 }
 
-.heroBlock .ant-anchor-ink::before {
+.hero-block .ant-anchor-ink::before {
   display: none;
 }
 
-.heroBlock .ant-anchor-ink::after {
+.hero-block .ant-anchor-ink::after {
   display: none;
 }
 
-.heroBlock .ant-anchor-wrapper {
+.hero-block .ant-anchor-wrapper {
   overflow: hidden;
   background-color: transparent;
 }
@@ -183,28 +183,28 @@ font-family: 'Satisfy', cursive;
 \-----------------------------------------*/
 
 @media (max-width: 760px) {
-  .heroBlock .content h3 {
+  .hero-block .content h3 {
     font-size: 120px;
 
   }
 }
 
 @media (max-width: 660px) {
-  .heroBlock .content h3 {
+  .hero-block .content h3 {
     font-size: 100px;
 
   }
 }
 
 @media (max-width: 560px) {
-  .heroBlock .content h3 {
+  .hero-block .content h3 {
     font-size: 100px;
 
   }
 }
 
 @media (max-width: 560px) {
-  .heroBlock .content h3 {
+  .hero-block .content h3 {
     font-size: 120px;
     text-align: center;
 
@@ -212,14 +212,14 @@ font-family: 'Satisfy', cursive;
 }
 
 @media (max-width: 350px) {
-  .heroBlock .content h3 {
+  .hero-block .content h3 {
     font-size: 100px;
 
   }
 }
 
 @media (max-width: 280px) {
-  .heroBlock .content h3 {
+  .hero-block .content h3 {
     font-size: 80px;
 
   }

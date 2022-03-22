@@ -1,17 +1,17 @@
 import React from 'react';
-import "./Contact-Antd.css"
+import './Contact.css';
 import { Form, Input, Button, Checkbox } from 'antd';
-import { TerminosYCondiciones } from './Terminos-y-condiciones';
+import { TermsAndConditions } from './TermsAndConditions';
 
-export const AppContact = () => {
+const { TextArea } = Input;
+const { Item } = Form;
+
+export const Contact = () => {
   
-  const { TextArea } = Input;
-  const { Item } = Form
-
   return (
-    <div id="contact" className="block contactBlock">
+    <div id="contact" className="block contact-block">
       <div className="container-fluid">
-        <div className="titleHolder">
+        <div className="title-holder">
           <h2>Enviános tu mensaje</h2>
           <p>Y nos contactamos con vos</p>
         </div>
@@ -51,11 +51,6 @@ export const AppContact = () => {
           >
             <Input placeholder="Teléfono" />
           </Item>
-          {/* <Item
-            name="subject"
-          >
-            <Input placeholder="Asunto" />
-          </Item> */}
           <Item
             name="message"
             rules={[
@@ -76,7 +71,7 @@ export const AppContact = () => {
                 { validator:(_, value) => value ? Promise.resolve() : Promise.reject('Debes aceptar los Términos y Condiciones') },
               ]}
             >
-              <Checkbox>Acepto los<TerminosYCondiciones /></Checkbox>
+              <Checkbox>Acepto los<TermsAndConditions /></Checkbox>
             </Item>
           </Item>
           <Item>

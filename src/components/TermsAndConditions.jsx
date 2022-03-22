@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import { Modal, Button } from 'antd';
 import logoSound from "../images/logo-sound-01.png"
 
-export const TerminosYCondiciones = () => {
+export const TermsAndConditions = () => {
 
-  function info() {
+  const info = useCallback(() => {
     Modal.info({
       title: 'Términos y Condiciones Sound©',
       content: (
@@ -25,9 +25,8 @@ export const TerminosYCondiciones = () => {
           <p style={{ fontSize: "11px"}} >*manzana</p>
         </div>
       ),
-      onOk() {},
     });
-  }
+  }, []);
 
   return (
     <Button

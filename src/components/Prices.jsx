@@ -1,10 +1,9 @@
-import React from 'react'
-import "./Prices-Antd.css"
+import React from 'react';
+import "./Prices.css";
 import { List, Card, Button } from 'antd';
+const { Item } = List;
 
-export const AppPrices = () => {
-
-  const { Item } = List
+export const Prices = () => {
 
   const data = [
     {
@@ -49,9 +48,9 @@ export const AppPrices = () => {
   ];
 
   return (
-    <div id="prices" className='block pricesBlock bgGray'>
+    <div id="prices" className='block prices-block bg-gray'>
       <div className="container-fluid">
-        <div className="titleHolder">
+        <div className="title-holder">
           <h2>¿Querés grabar con nosotros?</h2>
           <p>Te ofrecemos los siguientes packs.<br />Podés consultanos sobre presupuestos personalizados.</p>
         </div>

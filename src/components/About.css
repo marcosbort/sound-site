@@ -1,0 +1,41 @@
+/*-----------------------------------------\
+	About
+\-----------------------------------------*/
+.about-block .content-holder {
+  text-align: center;
+  margin: 0 20px 50px 0;
+  margin: 0 0px 50px 0;
+}
+
+.about-block .content .icon {
+  font-size: 40px;
+}
+
+.about-block .content img {
+  width: 200px;
+  margin: 0 0 14px 0;
+}
+
+.about-block .content h3 {
+  color: var(--color-01);
+  margin: 0 0 10px;
+}
+
+.about-block .content {
+  text-align: center;
+}
+
+.about-block .ant-row {
+  display: flex;
+  justify-content: center;
+}
+
+/*-----------------------------------------\
+	Responsive
+\-----------------------------------------*/
+
+@media (max-width: 1260px) {
+  .container-fluid {
+    width: 90%;
+  }
+}

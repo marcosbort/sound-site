@@ -6,11 +6,6 @@
   padding: 0;
   height: auto;
   line-height: 1.6;
-
-  /* Glassmorphism (Disable) */
-  /* background-color: rgba(0, 0, 0, 0.45);
-  backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(80, 80, 80, 0.3); */
 }
 
 .ant-layout-header {
@@ -32,38 +27,25 @@
 	Logo Sound
 \-----------------------------------------*/
 .header-logo {
-  /* position: relative; */
   width: 200px;
-  /* background-color: rgb(176, 231, 231); */
   display: flex;
 }
 
 .logo-sound {
-  /* position: absolute; */
   width: 120px;
 }
-
-/* .header-logo a {
-  font-size: 18px;
-  margin: 0 0 0 49px !important;
-  color: var(--color-01) !important;
-  font-family: 'Red Hat Display', sans-serif !important;
-} */
 
 
 /*-----------------------------------------\
 	Login
 \-----------------------------------------*/
 
-.mobileHidden {
+.mobile-hidden {
   display: flex;
   flex-direction: row;
   /* background-color: aquamarine; */
   align-items: center;
 }
-
-
-
 
 
 /*----------------------------------------*/
@@ -84,14 +66,14 @@
 /*-----------------------------------------\
 	Custom Navbar
 \-----------------------------------------*/
-.mobileHidden .ant-anchor-link {
+.mobile-hidden .ant-anchor-link {
   padding: 0 20px;
   line-height: 1.4;
   position: relative;
   font-size: 14px;
 }
 
-.mobileVisible .ant-anchor-link {
+.mobile-visible .ant-anchor-link {
   padding: 0 20px;
   line-height: 1.4;
   position: relative;
@@ -99,7 +81,7 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
-.mobileVisible .ant-btn-primary {
+.mobile-visible .ant-btn-primary {
   background-color: rgba(0, 0, 0, 0.85) !important;
   border: none;
 }
@@ -107,7 +89,6 @@
 .header .ant-anchor-link:before,
 .header .ant-anchor-link:after {
   content: '';
-  /* background: #1890ff; */
   background: var(--color-01);
   width: 1px;
   position: absolute;
@@ -156,7 +137,6 @@
 .header .ant-menu li.ant-menu-item:before,
 .header .ant-menu li.ant-menu-item:after {
   content: '';
-  /* background: #1890ff; */
   background: var(--color-01);
   width: 1px;
   position: absolute;
@@ -179,7 +159,6 @@
 
 .header .ant-menu li.ant-menu-item-selected,
 .header .ant-menu li.ant-menu-item:hover {
-  /* color: #1890ff; */
   color: var(--color-01);
   background: none;
 }
@@ -221,12 +200,3 @@
 .header .login-mobile {
   margin: 50px 0 0 0 !important;
 }
-
-.ant-drawer-content {
-  /* Glassmorphism */
-  /* backdrop-filter: blur(16px) !important; */
-  /* background-color: rgba(199, 196, 196, 0.603) !important; */
-  /* border-left: 1px solid rgba(0, 0, 0, 0.2) !important; */
-}
-
-
