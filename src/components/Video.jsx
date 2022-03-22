@@ -1,6 +1,6 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState } from "react";
 import "./Video.css";
-import { Modal, Button } from 'antd';
+import { Modal, Button } from "antd";
 
 export const Video = () => {
 
@@ -36,9 +36,7 @@ export const Video = () => {
             <iframe width="100%" height="480px" src="https://www.youtube.com/embed/AnvXTyrqR_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </Modal>
         </div>  
-
       </div>
-      
     </div>
   )
 }

@@ -1,13 +1,13 @@
-import './App.css';
-import "antd/dist/antd.css"
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Equipment } from './components/Equipment';
-import { Video } from './components/Video';
-import { Prices } from './components/Prices';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer'
+import "./App.css";
+import "antd/dist/antd.css";
+import { Navbar } from "./components/Navbar";
+import { Hero } from "./components/Hero";
+import { About } from "./components/About";
+import { Equipment } from "./components/Equipment";
+import { Video } from "./components/Video";
+import { Prices } from "./components/Prices";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 
 function App() {
@@ -22,7 +22,6 @@ function App() {
       <Prices />
       <Contact />
       <Footer />
-
     </div>
   );
 }

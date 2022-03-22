@@ -19,33 +19,31 @@ export const LoginModal = () => {
 
 
   return (
-    <div>
-      <>
-        <UserOutlined style={{ margin: "0px -10px 0px 25px", fontSize: "16px", color: "#1890ff" }} />
-        <Button
-          type='link'
-          onClick={handleShowModal}
-          style={{ margin: "0px -14px 0px 0px"}}
-        >
-          Login
-        </Button>
-        <Modal 
-          title="Login - Mastering"
-          visible={isModalVisible}
-          onCancel={handleCancel}
-          focusTriggerAfterClose="true"
-          footer={null}
-          bodyStyle={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}
-        >
-          <p>Si sos cliente, ingresá y llevá un seguimiento de nuestros avances en la masterización de tus producciones.</p>
-          <LoginForm />
-          <img
-            src={logoSound} 
-            alt="logo-sound"
-            style={{ margin: "-10px 10px 0px 0px", width: "100px" }}  
-          />
-        </Modal>
-      </>
-    </div>
+    <>
+      <UserOutlined style={{ margin: "0px -10px 0px 25px", fontSize: "16px", color: "#1890ff" }} />
+      <Button
+        type='link'
+        onClick={handleShowModal}
+        style={{ margin: "0px -14px 0px 0px"}}
+      >
+        Login
+      </Button>
+      <Modal 
+        title="Login - Mastering"
+        visible={isModalVisible}
+        onCancel={handleCancel}
+        focusTriggerAfterClose="true"
+        footer={null}
+        bodyStyle={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}
+      >
+        <p>Si sos cliente, ingresá y llevá un seguimiento de nuestros avances en la masterización de tus producciones.</p>
+        <LoginForm />
+        <img
+          src={logoSound} 
+          alt="logo-sound"
+          style={{ margin: "-10px 10px 0px 0px", width: "100px" }}  
+        />
+      </Modal>
+    </>
   )
 }
