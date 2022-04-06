@@ -17,92 +17,83 @@ import { ModalCard6 } from "./equipment/ModalCard6";
 
 const { Meta } = Card;
 
-
 export const Equipment = () => {
-
   return (
     <div id="equipment" className="block cards-block bg-gray">
       <div className="container-fluid">
-
         <div className="title-holder">
           <h2>Audio Hi-Res</h2>
           <p>Salas completamente equipadas</p>
         </div>
 
-        <Row gutter={[24, 24
-        ]}>
-          
+        <Row gutter={[24, 24]}>
           <Col xs={20} sm={12} md={8}>
             <Card
               hoverable
-              style={{cursor: "default"}}
-              cover={<img alt="example" src={image1}  />}
+              style={{ cursor: "default" }}
+              cover={<img alt="example" src={image1} />}
             >
               <Meta title="Equipo Técnico" description="" />
-            <ModalCard1 />
+              <ModalCard1 />
             </Card>
           </Col>
 
           <Col xs={20} sm={12} md={8}>
             <Card
               hoverable
-              style={{cursor: "default"}}
+              style={{ cursor: "default" }}
               cover={<img alt="example" src={image2} />}
             >
               <Meta title="Pre-Sala de monitoreo" description="" />
-            <ModalCard2 />
+              <ModalCard2 />
             </Card>
           </Col>
 
           <Col xs={20} sm={12} md={8}>
             <Card
               hoverable
-              style={{cursor: "default"}}
+              style={{ cursor: "default" }}
               cover={<img alt="example" src={image3} />}
             >
               <Meta title="Sala Acústica" description="" />
-            <ModalCard3 />
+              <ModalCard3 />
             </Card>
           </Col>
 
           <Col xs={20} sm={12} md={8}>
             <Card
               hoverable
-              style={{cursor: "default"}}
+              style={{ cursor: "default" }}
               cover={<img alt="example" src={image4} />}
             >
               <Meta title="Yamaha Cl5" description="" />
-            <ModalCard4 />
+              <ModalCard4 />
             </Card>
           </Col>
 
           <Col xs={20} sm={12} md={8}>
             <Card
               hoverable
-              style={{cursor: "default"}}
+              style={{ cursor: "default" }}
               cover={<img alt="example" src={image5} />}
             >
               <Meta title="Micrófonos Condenser" description="" />
-            <ModalCard5 />
+              <ModalCard5 />
             </Card>
           </Col>
 
           <Col xs={20} sm={12} md={8}>
             <Card
               hoverable
-              style={{cursor: "default"}}
+              style={{ cursor: "default" }}
               cover={<img alt="example" src={image6} />}
             >
               <Meta title="Micro Sala Vocal" description="" />
-            <ModalCard6 />
+              <ModalCard6 />
             </Card>
           </Col>
-
         </Row>
       </div>
     </div>
-  )
-}
-
-
-
+  );
+};

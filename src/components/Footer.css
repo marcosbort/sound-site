@@ -4,7 +4,7 @@
 .ant-layout-footer {
   background: #111 !important;
   padding: 50px 0 50px 0 !important;
-  background: url('../images/bg-sound-7.jpg') no-repeat !important;
+  background: url("../images/bg-sound-7.jpg") no-repeat !important;
   background-position: 50% 25% !important;
   background-size: cover;
   /* background-attachment: fixed; */
@@ -27,7 +27,6 @@
   margin: 2px 0 4px 0;
 }
 
-
 /*-----------------------------------------\
 	Contact
 \-----------------------------------------*/
@@ -35,7 +34,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 300px;
   font-size: 16px;
 }
@@ -51,14 +50,13 @@
 
 .footer-contact .copy {
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-contact a {
   margin: 0 5px;
   font-size: 23px;
 }
-
 
 /*-----------------------------------------\
 	Go Top!
