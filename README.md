@@ -1,4 +1,4 @@
-# Sound Site
+# Sound Site (React)
 
 ## Screenshots
 <img width="1440" alt="Screen Shot 2022-09-07 at 12 01 26" src="https://user-images.githubusercontent.com/86331998/188912145-f90bfd88-9a77-4f61-aec0-4c9a1ec2ea30.png">
