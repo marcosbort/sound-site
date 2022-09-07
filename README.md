@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Sound Site
+
+## Screenshots
+<img width="1440" alt="Screen Shot 2022-09-07 at 12 01 26" src="https://user-images.githubusercontent.com/86331998/188912145-f90bfd88-9a77-4f61-aec0-4c9a1ec2ea30.png">
+<img width="1440" alt="Screen Shot 2022-09-07 at 12 01 42" src="https://user-images.githubusercontent.com/86331998/188912180-d9854fdb-d79a-4174-848b-cc9a995e0b5d.png">
+<img width="1440" alt="Screen Shot 2022-09-07 at 12 01 54" src="https://user-images.githubusercontent.com/86331998/188912245-67b530a9-5338-4fde-a05b-df270513ca4a.png">
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
